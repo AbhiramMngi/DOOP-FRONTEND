@@ -4,6 +4,7 @@ import LoginPage from './components/LoginPage/LoginPage';
 import SignupPage from './components/SignUpPage/SignUpPage';
 import ProfilePage from './components/ProfilePage/ProfilePage';
 import BlogEditorPage from './components/BlogEditorPage/BlogEditorPage';
+import EditorPage from './components/EditorPage/EditorPage';
 
 const router = createBrowserRouter([
   {
@@ -26,5 +27,9 @@ const router = createBrowserRouter([
     path: '/blog-editor',
     element: <BlogEditorPage />,
   },
+  {
+    path: '/edit',
+    element: <EditorPage/>,
+  }
 ]);
 export default router;
