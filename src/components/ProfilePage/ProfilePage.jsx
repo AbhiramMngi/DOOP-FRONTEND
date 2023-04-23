@@ -1,4 +1,4 @@
-import { Avatar, Box, Center, Heading, Text, VStack } from '@chakra-ui/react';
+import { Avatar, Box, Heading, Text, VStack } from '@chakra-ui/react';
 import { FiEdit, FiTrash } from 'react-icons/fi';
 
 // Mock data for blogs

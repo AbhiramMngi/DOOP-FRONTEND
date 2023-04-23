@@ -5,8 +5,13 @@ import SignupPage from './components/SignUpPage/SignUpPage';
 import ProfilePage from './components/ProfilePage/ProfilePage';
 import BlogEditorPage from './components/BlogEditorPage/BlogEditorPage';
 import EditorPage from './components/EditorPage/EditorPage';
+import ViewBlogPage from './components/ViewBlogPage/ViewBlog';
 
 const router = createBrowserRouter([
+  {
+    path: '/',
+    element:<ViewBlogPage/>
+  },
   {
     path: 'signin',
     element: <LoginPage />,
