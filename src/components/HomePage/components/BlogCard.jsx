@@ -15,7 +15,7 @@ const BlogCard = ({ title, content, userName }) => {
       <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
         <a href="www.google.com" className="block w-full h-full">
           <img
-            alt="blog hero"
+            alt="blog photo"
             src={require('../images/bich.jpeg')}
             className="object-cover w-full max-h-40"
           />
@@ -41,10 +41,10 @@ const BlogCard = ({ title, content, userName }) => {
                 </p>
                 <div className="flex flex-row ml-20 justify-evenly">
                   <button onClick={onClickEdit} className="mr-4">
-                    <img alt="a" src={EditImage} height={20} width={20}></img>
+                    <img src={EditImage} height={20} width={20}></img>
                   </button>
                   <button onClick={onClickDelete}>
-                    <img alt="b" src={DeleteImage} height={20} width={20}></img>
+                    <img src={DeleteImage} height={20} width={20}></img>
                   </button>
                 </div>
               </div>
